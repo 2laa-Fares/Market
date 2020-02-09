@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">fm</string>
+
+    <!-- Sliding -->
+    <string name="sliding_no">Sliding No</string>
+    <string name="slide1_title">Mauris pharetra nisl eget</string>
+    <string name="slide1_des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec nunc urna. Nunc vel consequat augua. Donec gravida luctus justo, eu sagittis ipsum elementum aliquet.</string>
+    <string name="slide2_title">Aliquam erat volutpat</string>
+    <string name="slide3_title">Aresh bimarst delivery</string>
+
+    <string name="categories">categories to show</string>
+    <string name="tab_no">Tab Number</string>
+    <string name="products">products to show</string>
+    <string name="product">product to show</string>
+
+    <string name="cucumber">Proin vestibulum eros ipsum,\nin aliquet elit interdum et.</string>
+
+
+    <string name="filter">Filter</string>
+    <string name="sort_by">Sort by</string>
+    <string name="discard">Discard</string>
+    <string name="add">Add to cart</string>
+
+    <string name="no_internet">Please check your network connection..!</string>
+    <string name="error">Please try to connect later! server no down..!</string>
+</resources>

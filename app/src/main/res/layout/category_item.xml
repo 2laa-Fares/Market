@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/cat1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/sub_image_height"
+        android:layout_marginLeft="@dimen/margin8"
+        android:layout_marginTop="@dimen/margin8"
+        android:layout_marginRight="@dimen/margin4"
+        android:layout_marginBottom="@dimen/margin8"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/cat2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".45"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin8"
+        android:layout_marginLeft="@dimen/margin8"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/cat1"
+        app:layout_constraintRight_toRightOf="@id/cat1"
+        app:layout_constraintBottom_toBottomOf="@id/cat1"
+        app:layout_constraintWidth_percent=".45"
+        android:gravity="left"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/cat2"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/sub_image_height"
+        android:layout_marginLeft="@dimen/margin4"
+        android:layout_marginTop="@dimen/margin8"
+        android:layout_marginRight="@dimen/margin8"
+        android:layout_marginBottom="@dimen/margin8"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintLeft_toRightOf="@+id/cat1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent=".45"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin8"
+        android:layout_marginLeft="@dimen/margin8"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@id/cat2"
+        app:layout_constraintRight_toRightOf="@id/cat2"
+        app:layout_constraintBottom_toBottomOf="@id/cat2"
+        app:layout_constraintWidth_percent=".45"
+        android:gravity="left"
+        android:textColor="@color/colorPrimary"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin8"
+        android:background="@color/colorYellow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cat2">
+
+        <ImageView
+            android:id="@+id/cucumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16"
+            android:layout_marginTop="@dimen/margin8"
+            android:layout_marginBottom="@dimen/margin8"
+            android:src="@drawable/cucumber"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginRight="@dimen/margin8"
+            android:src="@mipmap/search"
+            android:text="@string/cucumber"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/cucumber"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
