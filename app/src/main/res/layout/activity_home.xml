@@ -60,6 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/image_height"
                 android:layout_marginTop="@dimen/margin4"
+                android:layoutDirection="ltr"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/toolbar" />
@@ -69,6 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/margin8"
                 android:layout_marginBottom="@dimen/margin8"
+                android:layoutDirection="ltr"
                 app:layout_constraintBottom_toBottomOf="@id/pager"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -82,6 +84,7 @@
                 android:id="@+id/recycler"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
+                android:layoutDirection="ltr"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/pager"
